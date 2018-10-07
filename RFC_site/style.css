@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+}
+
+.flex-container {
+	background-color: #515151;
+	resize: horizontal;
+	overflow: hidden;
+	display: flex;
+	margin: 15px;
+}
+
+.item {
+	margin: 15px;
+	padding: 10px;
+	width: 110px;
+	min-width: 0;
+	background-color: #1B5385;
+	color: #fff;
+	font-family: roboto;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	text-align: center;
+}
+
+.initial {
+  flex: initial;
+}
+
+.auto {
+  flex: auto;
+}
+
+.none {
+  flex: none;
+}
